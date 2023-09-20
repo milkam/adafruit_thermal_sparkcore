@@ -518,7 +518,7 @@ bool Adafruit_Thermal::hasPaper() {
     return true;
     
   }
-  
+  return false;
 }
 
 void Adafruit_Thermal::setLineHeight(int val) {
